@@ -9,10 +9,10 @@
     <button id="stop">Stop</button>
   
     <script th:inline="javascript">
-      var sock = new SockJS([[@{/marcopolo}]]);
-      var stomp = Stomp.over(sock);
+      var sock = new SockJS([[@{/marcopolo}]]);    /* 创建sockJS连接*/
+      var stomp = Stomp.over(sock);                   /*创建STOMP客户端*/
 
-      stomp.connect('guest', 'guest', function(frame) {
+      stomp.connect('guest', 'guest', function(frame) {   /*连接STOMP端点*/
         console.log('*****  Connected  *****');
         stomp.subscribe("/topic/marco", handlePolo);
         sayMarco();
