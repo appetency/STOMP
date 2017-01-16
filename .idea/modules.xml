@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/STOMP.iml" filepath="$PROJECT_DIR$/.idea/modules/STOMP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/STOMP_main.iml" filepath="$PROJECT_DIR$/.idea/modules/STOMP_main.iml" group="STOMP" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/STOMP_test.iml" filepath="$PROJECT_DIR$/.idea/modules/STOMP_test.iml" group="STOMP" />
+    </modules>
+  </component>
+</project>
